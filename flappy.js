@@ -40,8 +40,6 @@ var Shape = function(x,y,width,height,color,img,frames,delay){//An object used f
 };
 
 /*Create all the different canvas elements*/
-var skyImg = new Image();
-skyImg.src = "img/sky.png";
 var sky = new Shape(0,0,screen.width,screen.height,"#041024",null,null,0);
 
 var treesImg = new Image();
